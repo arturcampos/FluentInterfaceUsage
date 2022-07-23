@@ -26,6 +26,7 @@ public class CapitalGains {
                         .readAndConvertJsonFromString(operationStr.toString())
                         .executeOperation()
                         .print();
+                operationStr = new StringBuilder();
             }
         }
     }

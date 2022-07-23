@@ -1,22 +1,22 @@
 package model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class TaxOperation {
 
-    private final double tax;
+    @JsonProperty(value = "tax")
+    private final BigDecimal tax;
 
-    public TaxOperation(double tax){
+    public TaxOperation(BigDecimal tax){
         this.tax = tax;
     }
 
     public TaxOperation(){
-        this.tax = 0.00d;
+        this.tax = BigDecimal.ZERO.setScale(2, RoundingMode.UNNECESSARY);
     }
 
-    @Override
-    public String toString() {
-        return "{\"tax\": "+BigDecimal.valueOf(tax).setScale(2, RoundingMode.UNNECESSARY)+"}";
-    }
 }

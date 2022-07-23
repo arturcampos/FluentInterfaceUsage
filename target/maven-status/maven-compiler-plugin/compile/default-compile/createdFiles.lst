@@ -1,6 +1,7 @@
 CapitalGains.class
 service/OperationService$1.class
+service/TaxService.class
 service/OperationService.class
+model/TaxOperation.class
 model/OperationType.class
 model/CapitalOperation.class
-model/TaxOperation.class
