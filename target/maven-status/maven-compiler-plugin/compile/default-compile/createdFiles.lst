@@ -1,0 +1,6 @@
+CapitalGains.class
+service/OperationService$1.class
+service/OperationService.class
+model/OperationType.class
+model/CapitalOperation.class
+model/TaxOperation.class
