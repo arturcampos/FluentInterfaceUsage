@@ -1,6 +1,5 @@
 package service;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import model.CapitalOperation;
@@ -66,7 +65,7 @@ public class OperationService {
     }
 
     public void print() throws JsonProcessingException {
-        System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(this.taxList));
+        System.out.println(mapper.writeValueAsString(this.taxList));
     }
 
 
