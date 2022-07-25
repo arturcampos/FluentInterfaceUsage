@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.nubank","l":"CapitalGains"},{"p":"com.nubank.model","l":"CapitalOperation"},{"p":"com.nubank.service","l":"OperationService"},{"p":"com.nubank.model","l":"OperationType"},{"p":"com.nubank.model","l":"TaxOperation"},{"p":"com.nubank.service","l":"TaxService"}]

@@ -1,6 +1,6 @@
-/home/artur/development/estudos/capitalgains/src/main/java/model/OperationType.java
-/home/artur/development/estudos/capitalgains/src/main/java/model/TaxOperation.java
-/home/artur/development/estudos/capitalgains/src/main/java/service/OperationService.java
-/home/artur/development/estudos/capitalgains/src/main/java/CapitalGains.java
-/home/artur/development/estudos/capitalgains/src/main/java/model/CapitalOperation.java
-/home/artur/development/estudos/capitalgains/src/main/java/service/TaxService.java
+/home/artur/development/estudos/capitalgains/src/main/java/com/nubank/model/TaxOperation.java
+/home/artur/development/estudos/capitalgains/src/main/java/com/nubank/CapitalGains.java
+/home/artur/development/estudos/capitalgains/src/main/java/com/nubank/model/OperationType.java
+/home/artur/development/estudos/capitalgains/src/main/java/com/nubank/model/CapitalOperation.java
+/home/artur/development/estudos/capitalgains/src/main/java/com/nubank/service/TaxService.java
+/home/artur/development/estudos/capitalgains/src/main/java/com/nubank/service/OperationService.java

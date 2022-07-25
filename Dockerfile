@@ -1,4 +1,4 @@
-FROM maven:3.6.0-jdk-11-slim as builder
+FROM maven:3.6.3-jdk-11-slim as builder
 
 COPY src /home/app/src
 

@@ -1,7 +1,7 @@
-CapitalGains.class
-service/OperationService$1.class
-service/TaxService.class
-service/OperationService.class
-model/TaxOperation.class
-model/OperationType.class
-model/CapitalOperation.class
+com/nubank/service/OperationService.class
+com/nubank/model/TaxOperation.class
+com/nubank/model/OperationType.class
+com/nubank/service/OperationService$1.class
+com/nubank/CapitalGains.class
+com/nubank/model/CapitalOperation.class
+com/nubank/service/TaxService.class
